@@ -35,6 +35,16 @@
       </Label>
       <ComboBox layoutX="202.0" layoutY="315.0" prefWidth="150.0" />
       <Label layoutX="870.0" layoutY="99.0" />
-      <Label layoutX="936.0" layoutY="91.0" text="Label" />
+      <Label layoutX="736.0" layoutY="86.0" text="Veja abaixo a tabela de receitas organizadas por data e valor.">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TableView layoutX="712.0" layoutY="160.0" prefHeight="533.0" prefWidth="531.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
